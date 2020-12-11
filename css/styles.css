@@ -1,0 +1,114 @@
+/* Цвет основного текста #757575 */
+/* Вторичный цвет текста #212121 */
+/* Белый #ffffff */
+/* Акцент #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-bcg-color: #2f303a;
+  --sec-bcg-color: #f5f4fa;
+}
+/* Шапка сайта */
+.header {
+  background-color: var(--white-color);
+}
+
+.nav-logo {
+  color: #000000;
+}
+
+.logo-item {
+  color: var(--accent-color);
+}
+
+.nav-list .link {
+  color: var(--title-text-color);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+
+.contacts-list .link {
+  color: var(--primary-text-color);
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Секция Герой */
+
+.hero {
+  background-color: var(--primary-bcg-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* Секция с преимуществами */
+
+.features .list-title {
+  color: var(--title-text-color);
+}
+
+.features .list-text {
+  color: var(--primary-text-color);
+}
+
+.work-title {
+  color: var(--title-text-color);
+}
+
+/* Секция с членами команды */
+
+.members {
+  background-color: var(--sec-bcg-color);
+}
+
+.members-title {
+  color: var(--title-text-color);
+}
+
+.members .list-title {
+  color: var(--title-text-color);
+}
+
+.members .list-text {
+  color: var(--primary-text-color);
+}
+/* Футер */
+.footer {
+  background-color: var(--primary-bcg-color);
+}
+
+.footer .logo {
+  color: var(--white-color);
+}
+
+.footer .logo-item {
+  color: var(--accent-color);
+}
+
+address {
+  color: var(--white-color);
+}
+
+.footer .contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+}
